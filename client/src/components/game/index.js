@@ -106,8 +106,6 @@ export default function Game({ matrix, setMatrix, isGameEnded, onEndGame, setWin
 
     const handleGameEnd = () => {
         gameService.onGameEnd(socketService.socket, (data) => {
-            console.log("Handle Game End");
-
             setIsPlayerTurn(false);
 
             data.draw && setDraws((lastDraws) => lastDraws + 1);
