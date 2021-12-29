@@ -1,0 +1,42 @@
+.joinRoomContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+}
+
+.joinRoomTitle {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.joinRoomForm {
+    width: 100%;
+    text-align: center;
+}
+
+.joinRoomInput {
+    min-width: 300px;
+    margin-bottom: 1rem;
+    padding: 0.3rem 0.5rem;
+    outline: none;
+    box-shadow: #8e44ad 0px 0px 0px 2px;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.joinRoomButton {
+    cursor: pointer;
+    color: #fff;
+    background: #8e44ad;
+    border: 2px solid #8e44ad;
+    padding: 0.2rem 0.8rem;
+    border-radius: 0.4rem;
+    transition: all 200ms ease-in;
+}
+
+.joinRoomButton:hover {
+    background: transparent;
+    border-color: #fff;
+}

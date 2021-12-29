@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "This is api of Tic-Tac-Toe application",
+  "main": "./src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "set NODE_ENV=development& nodemon ./src/server.js",
+    "start": "set NODE_ENV=production& node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivelin Ivanov",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.4.0"
+  }
+}
